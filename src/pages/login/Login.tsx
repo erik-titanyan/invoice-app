@@ -1,6 +1,6 @@
 import { Stack, TextField, Text, DefaultButton } from "@fluentui/react";
 import React, { useEffect, useState } from "react";
-import { useHistory } from "react-router";
+import { useHistory } from "react-router-dom";
 import { getUsers } from "../../config/api/config";
 import {
   loginErrorMessageStyles,

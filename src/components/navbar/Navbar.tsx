@@ -19,7 +19,7 @@ import {
 import avatar from "./assets/avatar-example.png";
 import unAuthAvatar from "./assets/avatar-unauthorized.png";
 import { useState } from "react";
-import { useHistory, useLocation } from "react-router";
+import { useHistory, useLocation } from "react-router-dom";
 
 const Navbar: React.FC = () => {
   const [showCallout, setShowCallout] = useState<boolean>(false);
